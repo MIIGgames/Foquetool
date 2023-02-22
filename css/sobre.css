@@ -1,0 +1,44 @@
+#sobre {
+    background: #000000e2;
+}
+
+.sobre {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+}
+
+.sobre .pag-1 {
+    width: 50%;
+}
+
+.sobre .h2-1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.sobre .h2-2 {
+    margin-top: 1.2rem;
+    font-size: 2.5rem;
+    color: #0f32b6;
+    font-weight: 900;
+}
+
+.sobre .desc {
+    width: 50%;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.desc p {
+    margin-top: 20px;
+}
+
+.desc span {
+    color: rgb(186, 183, 183);
+}

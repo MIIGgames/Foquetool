@@ -1,0 +1,57 @@
+.venda {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    height: 80vh;
+}
+
+.venda h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.prog {
+    padding: 10px;
+    margin: 20px;
+}
+
+.prog p {
+    font-size: 1.5rem;
+}
+
+.container {
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+
+.progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #0fd439;
+   animation: progress-animation 5s infinite;
+}
+
+.progress-bar-1{
+   position: absolute;
+   height: 100%;
+   background-color: red;
+   animation: progesso-red 5s infinite;
+}
+
+@keyframes progesso-red {
+    0% {width: 0%;}
+    100% {width: 20%;}
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    100% { width: 90%}
+}
+
+.unico {
+    font-weight: 800;
+    justify-items: left;
+}
