@@ -48,5 +48,29 @@
 }
 
 @media screen and (max-width:768px) {
+    #main-5 {
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        height: 100vh;
+    }
+
+    .img-2 {
+        margin-top: 6rem;
+        
+    }
+
+    .descricao-2 h2 {
+        color: #002bff;
+        text-align: center;
+    }    
+
+    .mine {
+        margin: auto;
+        margin: 0px 20px;
+    }
     
 }
