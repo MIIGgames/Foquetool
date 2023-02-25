@@ -1,0 +1,52 @@
+#main-5 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+}
+
+.descricao-2 h2 {
+    color: #002bff;
+}
+
+.img-2 {
+    margin-top: 20px;
+}
+
+.mine {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.mine-2 {
+    margin-top: 20px;
+}
+
+.mine-2 h3 {
+    color: #002bff;
+}
+
+.mine-2 p {
+    font-size: 1.3rem;
+}
+
+.button-final {
+    margin-top: 30px;
+    border: 1px solid #002bff;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.button-final a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    
+}

@@ -38,3 +38,24 @@
 .investir span {
     color: #0f33b698;
 }
+
+@media screen and (max-width:768px) {
+    .investir {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 115vh;
+        gap: 0px;
+    }
+
+    .investir .descricao {
+        font-size: 2rem;
+        margin: 0px 15px;
+    }
+
+    .descricao-2 {
+        font-size: 1.2rem;
+        width: 100%;
+        margin: 0px 15px;
+    }
+}
