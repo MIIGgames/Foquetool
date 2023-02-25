@@ -83,3 +83,52 @@
 .card-02 p {
     margin-top: 20px;
 }
+
+@media screen and (max-width:768px) {
+    .nosso-trabalho {
+        max-width: 1300px;
+        margin: auto;
+        padding: 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .card-1 {
+        width: 100%;
+        height: 40vh;
+        background-color: aliceblue;
+        padding: 30px 30px;
+        border-radius: 10px;
+    }
+    .card-1 h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        font-size: 2rem;
+        color: #4162e6;
+        text-align: left;
+        width: auto;
+    }
+
+    .card-1 p {
+        font-size: 1.3rem;
+    }
+
+    .segundo-card {
+
+    }
+
+    .card-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-02 {
+        width: 100%;
+    }
+}

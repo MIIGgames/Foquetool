@@ -120,6 +120,7 @@ body {
         align-items: center;
         margin: 10px 10px;
         justify-content: space-between;
+        height: auto;
     }
 
     .home-1 h2 {
@@ -133,8 +134,7 @@ body {
         margin-top: 20px;
     }
     .home .img img {
-        width: 25rem;
-        height: 15rem;
+        display: none;
     }
     
 }
