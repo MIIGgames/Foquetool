@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Mukta:wght@300;800&family=Roboto:ital,wght@0,500;1,100;1,300;1,400;1,500&display=swap');
+
 @import "home.css";
-@import "sobre.css";
-@import "fazer.css";
-@import "card.css";
 @import "venda.css";
-@import "mobile.css";
+@import "investir.css";
+@import "servico.css";
+@import "trabalho.css";
+
+
